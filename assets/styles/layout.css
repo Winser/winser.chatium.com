@@ -14,7 +14,10 @@
 }
 
 body {
+    position: relative;
     background: var(--black100);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 header {
