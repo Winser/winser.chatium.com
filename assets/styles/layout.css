@@ -1,0 +1,40 @@
+:root {
+    --black900: #151617;
+    --black100: #F8F8F8;
+    --blue: #0D7ECF;
+    --blue100: #F2F9FD;
+}
+
+* {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black900);
+    line-height: 1;
+}
+
+body {
+    background: var(--black100);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0 0 auto;
+    margin: 16px;
+    height: 44px;
+}
+
+.header_title {
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    row-gap: 16px;
+    flex: 0 1 auto;
+    margin-bottom: 56px;
+}

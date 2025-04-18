@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": ["es2021", "dom"],
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@builder/*": ["../builder.chatium.com/*"],
+      "@chatium/*": ["../chatium.chatium.com/*"],
+      "@cms/*": ["../cms.chatium.com/*"],
+      "@crm/*": ["../crm.chatium.com/*"],
+      "@crud/*": ["../crud.chatium.com/*"],
+      "@emails/*": ["../emails.chatium.com/*"],
+      "@getcourse/*": ["../getcourse.chatium.com/*"],
+      "@lib/*": ["../lib.chatium.com/*"],
+      "@mlm/*": ["../mlm.chatium.com/*"],
+      "@pay/*": ["../pay.chatium.com/*"],
+      "@sender/*": ["../sender.chatium.com/*"],
+      "@solid/*": ["../solid.chatium.com/*"],
+      "@store/*": ["../store.chatium.com/*"],
+      "@traffic/*": ["../traffic.chatium.com/*"],
+      "@users/*": ["../users.chatium.com/*"],
+      "@vault/*": ["../vault.chatium.com/*"],
+      "@adv/*": ["../adv.chatium.com/*"],
+      "@getcourse-components/*": ["../getcourse-components.chatium.com/*"],
+      "@traffic-sources/*": ["../traffic-sources.chatium.com/*"],
+      "@start/*": ["../start.chatium.com/*"],
+      "@reg/*": ["../reg.chatium.com/*"],
+      "/*": ["./*"]
+    },
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "jsxFactory": "jsx",
+    "jsxFragmentFactory": "jsx.Fragment",
+    "strict": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "include": [
+    "**/*", ".**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ],
+  "files": [
+    "./node_modules/@app/types/globals.d.ts",
+    "./node_modules/@app/types/modules.d.ts",
+    "./node_modules/@app/ui/global-jsx.d.ts"
+],
+  "references": [
+    { "path": "../builder.chatium.com" },
+    { "path": "../chatium.chatium.com" },
+    { "path": "../cms.chatium.com" },
+    { "path": "../crm.chatium.com" },
+    { "path": "../crud.chatium.com" },
+    { "path": "../emails.chatium.com" },
+    { "path": "../getcourse.chatium.com" },
+    { "path": "../lib.chatium.com" },
+    { "path": "../mlm.chatium.com" },
+    { "path": "../pay.chatium.com" },
+    { "path": "../sender.chatium.com" },
+    { "path": "../solid.chatium.com" },
+    { "path": "../store.chatium.com" },
+    { "path": "../traffic.chatium.com" },
+    { "path": "../users.chatium.com" },
+    { "path": "../vault.chatium.com" },
+    { "path": "../adv.chatium.com" },
+    { "path": "../getcourse-components.chatium.com" },
+    { "path": "../traffic-sources.chatium.com" },
+    { "path": "../start.chatium.com" },
+    { "path": "../reg.chatium.com" }
+  ]
+}
